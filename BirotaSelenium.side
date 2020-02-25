@@ -1,0 +1,474 @@
+{
+  "id": "98bb1ccf-7700-43d5-9b15-41c086517a6a",
+  "version": "2.0",
+  "name": "birota",
+  "url": "https://www.birota.ru/shop/aksessuary/tormoznaja_sistema/",
+  "tests": [{
+    "id": "fb98f110-632f-4143-9424-66fcdb031ae7",
+    "name": "Сортировка товаров по цене с одним значением",
+    "commands": [{
+      "id": "8663861e-f951-40dc-8079-d602448fa557",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.birota.ru/shop/aksessuary/tormoznaja_sistema/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1ba77e2f-1e36-4097-bd03-05238af9a631",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x841",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e329279b-082f-405c-af2c-e366eef63624",
+      "comment": "",
+      "command": "click",
+      "target": "id=arrFilter_188_MIN",
+      "targets": [
+        ["id=arrFilter_188_MIN", "id"],
+        ["name=arrFilter_188_MIN", "name"],
+        ["css=#arrFilter_188_MIN", "css:finder"],
+        ["xpath=//input[@id='arrFilter_188_MIN']", "xpath:attributes"],
+        ["xpath=//section[@id='main']/div[2]/aside/div[2]/form/fieldset/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "41f3af51-2e29-403d-b79c-a63e04da5006",
+      "comment": "",
+      "command": "type",
+      "target": "id=arrFilter_188_MIN",
+      "targets": [
+        ["id=arrFilter_188_MIN", "id"],
+        ["name=arrFilter_188_MIN", "name"],
+        ["css=#arrFilter_188_MIN", "css:finder"],
+        ["xpath=//input[@id='arrFilter_188_MIN']", "xpath:attributes"],
+        ["xpath=//section[@id='main']/div[2]/aside/div[2]/form/fieldset/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "999"
+    }, {
+      "id": "bf99308d-1412-4c3f-83c1-fe71b77ff6ae",
+      "comment": "",
+      "command": "click",
+      "target": "id=set_filter",
+      "targets": [
+        ["id=set_filter", "id"],
+        ["name=set_filter", "name"],
+        ["css=#set_filter", "css:finder"],
+        ["xpath=//input[@id='set_filter']", "xpath:attributes"],
+        ["xpath=//section[@id='main']/div[2]/aside/div[2]/form/fieldset/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8190f479-3c41-47c7-a702-77a6b82b3753",
+    "name": "Сортировка товаров по цене с двумя значениями",
+    "commands": [{
+      "id": "fecfaf7f-870f-4073-865a-ecba3cb56bfc",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.birota.ru/shop/aksessuary/tormoznaja_sistema/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "62fbbe28-a4fa-4e35-a7ae-243de25e5db4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x841",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4151d24e-9543-4b17-906f-639aaebd6397",
+      "comment": "",
+      "command": "click",
+      "target": "id=arrFilter_188_MIN",
+      "targets": [
+        ["id=arrFilter_188_MIN", "id"],
+        ["name=arrFilter_188_MIN", "name"],
+        ["css=#arrFilter_188_MIN", "css:finder"],
+        ["xpath=//input[@id='arrFilter_188_MIN']", "xpath:attributes"],
+        ["xpath=//section[@id='main']/div[2]/aside/div[2]/form/fieldset/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b181759-3eb5-4519-b320-f2c6bdfc2098",
+      "comment": "",
+      "command": "type",
+      "target": "id=arrFilter_188_MIN",
+      "targets": [
+        ["id=arrFilter_188_MIN", "id"],
+        ["name=arrFilter_188_MIN", "name"],
+        ["css=#arrFilter_188_MIN", "css:finder"],
+        ["xpath=//input[@id='arrFilter_188_MIN']", "xpath:attributes"],
+        ["xpath=//section[@id='main']/div[2]/aside/div[2]/form/fieldset/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "b909d63e-4d3d-4e04-a0f1-f24e506a4994",
+      "comment": "",
+      "command": "click",
+      "target": "id=arrFilter_188_MAX",
+      "targets": [
+        ["id=arrFilter_188_MAX", "id"],
+        ["name=arrFilter_188_MAX", "name"],
+        ["css=#arrFilter_188_MAX", "css:finder"],
+        ["xpath=//input[@id='arrFilter_188_MAX']", "xpath:attributes"],
+        ["xpath=//section[@id='main']/div[2]/aside/div[2]/form/fieldset/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3bbb4a0a-2c0b-4856-b868-6ff3414017f7",
+      "comment": "",
+      "command": "type",
+      "target": "id=arrFilter_188_MAX",
+      "targets": [
+        ["id=arrFilter_188_MAX", "id"],
+        ["name=arrFilter_188_MAX", "name"],
+        ["css=#arrFilter_188_MAX", "css:finder"],
+        ["xpath=//input[@id='arrFilter_188_MAX']", "xpath:attributes"],
+        ["xpath=//section[@id='main']/div[2]/aside/div[2]/form/fieldset/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "4999"
+    }, {
+      "id": "42b8f9c2-1f06-47be-8480-d2dbb9060615",
+      "comment": "",
+      "command": "click",
+      "target": "id=set_filter",
+      "targets": [
+        ["id=set_filter", "id"],
+        ["name=set_filter", "name"],
+        ["css=#set_filter", "css:finder"],
+        ["xpath=//input[@id='set_filter']", "xpath:attributes"],
+        ["xpath=//section[@id='main']/div[2]/aside/div[2]/form/fieldset/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee730e50-28a3-4a25-9fa4-fd2e85126f12",
+      "comment": "",
+      "command": "click",
+      "target": "id=lbl100",
+      "targets": [
+        ["id=lbl100", "id"],
+        ["name=sort", "name"],
+        ["css=#lbl100", "css:finder"],
+        ["xpath=//select[@id='lbl100']", "xpath:attributes"],
+        ["xpath=//div[@id='sort_al']/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "11f11b53-5866-499e-ab8c-57639d8cbc84",
+      "comment": "",
+      "command": "select",
+      "target": "id=lbl100",
+      "targets": [],
+      "value": "label=цене, сначала дорогие"
+    }, {
+      "id": "bdab0230-d0d8-4762-8e3b-aba791be5775",
+      "comment": "",
+      "command": "click",
+      "target": "id=lbl100",
+      "targets": [
+        ["id=lbl100", "id"],
+        ["name=sort", "name"],
+        ["css=#lbl100", "css:finder"],
+        ["xpath=//select[@id='lbl100']", "xpath:attributes"],
+        ["xpath=//div[@id='sort_al']/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e25ea124-45fb-4399-8777-b490b088f524",
+    "name": "Отображение количества товаров на странице",
+    "commands": [{
+      "id": "884a1f3d-18dd-4fd4-830d-6500047aeb08",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.birota.ru/shop/aksessuary/tormoznaja_sistema/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "36b1f53c-a02f-4774-a879-a9270a6755f0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x841",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "af5314e8-e45c-484d-ab61-9c6a956501a6",
+      "comment": "",
+      "command": "click",
+      "target": "name=cnt",
+      "targets": [
+        ["name=cnt", "name"],
+        ["css=.w-sel:nth-child(1) > .default", "css:finder"],
+        ["xpath=//select[@name='cnt']", "xpath:attributes"],
+        ["xpath=//form[@id='form-sort']/fieldset/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc4ca5fc-6134-4253-9ac9-4e4858dadba2",
+      "comment": "",
+      "command": "select",
+      "target": "name=cnt",
+      "targets": [],
+      "value": "label=72 На Странице"
+    }, {
+      "id": "bf1c50fa-e6d6-45c1-9583-3370343f6ee9",
+      "comment": "",
+      "command": "click",
+      "target": "name=cnt",
+      "targets": [
+        ["name=cnt", "name"],
+        ["css=.w-sel:nth-child(1) > .default", "css:finder"],
+        ["xpath=//select[@name='cnt']", "xpath:attributes"],
+        ["xpath=//form[@id='form-sort']/fieldset/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65f603dc-b1df-431c-9233-ef34b536e3c4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.w-sel:nth-child(1) > .default",
+      "targets": [
+        ["css=.w-sel:nth-child(1) > .default", "css:finder"],
+        ["xpath=//select[@name='cnt']", "xpath:attributes"],
+        ["xpath=//form[@id='form-sort']/fieldset/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d6db5f6-c9a9-4646-8873-8ecd908e2ab8",
+      "comment": "",
+      "command": "select",
+      "target": "css=.w-sel:nth-child(1) > .default",
+      "targets": [],
+      "value": "label=144 На Странице"
+    }, {
+      "id": "25ebe78e-470a-491a-a21a-5ac353abf134",
+      "comment": "",
+      "command": "click",
+      "target": "css=.w-sel:nth-child(1) > .default",
+      "targets": [
+        ["css=.w-sel:nth-child(1) > .default", "css:finder"],
+        ["xpath=//select[@name='cnt']", "xpath:attributes"],
+        ["xpath=//form[@id='form-sort']/fieldset/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb0569c1-7b68-4e3f-97b5-835e5df21755",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=table",
+      "targets": [
+        ["linkText=table", "linkText"],
+        ["css=.view-table", "css:finder"],
+        ["xpath=//a[contains(text(),'table')]", "xpath:link"],
+        ["xpath=//form[@id='form-sort']/fieldset/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'table')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e1806d9-9cc7-465a-9756-fc6c1120788f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=row",
+      "targets": [
+        ["linkText=row", "linkText"],
+        ["css=.view-row", "css:finder"],
+        ["xpath=//a[contains(text(),'row')]", "xpath:link"],
+        ["xpath=//form[@id='form-sort']/fieldset/div[2]/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[4]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'row')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b3ffbdf2-1aff-483d-a7f4-9f9f38ad7c5f",
+    "name": "Сортировка по брендам",
+    "commands": [{
+      "id": "6a720902-c1dd-48d6-bc34-426602694934",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.birota.ru/shop/aksessuary/tormoznaja_sistema/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5adf0588-f5d9-440b-89da-2b9c35fc5b00",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x841",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "53a9c4d3-a65a-44bb-9394-53375b560b01",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(3) > label",
+      "targets": [
+        ["css=li:nth-child(3) > label", "css:finder"],
+        ["xpath=//section[@id='main']/div[2]/aside/div[2]/form/fieldset/div[2]/div/div/div/ul/li[3]/label", "xpath:idRelative"],
+        ["xpath=//li[3]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Alligator')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0b97d32-09c8-44e5-bcba-5ab6a7281401",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(4) > label",
+      "targets": [
+        ["css=li:nth-child(4) > label", "css:finder"],
+        ["xpath=//section[@id='main']/div[2]/aside/div[2]/form/fieldset/div[2]/div/div/div/ul/li[4]/label", "xpath:idRelative"],
+        ["xpath=//li[4]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Author')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6cdadeb-64ae-46ef-8fbb-0f779d3a2640",
+      "comment": "",
+      "command": "click",
+      "target": "id=set_filter",
+      "targets": [
+        ["id=set_filter", "id"],
+        ["name=set_filter", "name"],
+        ["css=#set_filter", "css:finder"],
+        ["xpath=//input[@id='set_filter']", "xpath:attributes"],
+        ["xpath=//section[@id='main']/div[2]/aside/div[2]/form/fieldset/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "18f05e61-e9fc-4ece-9347-064be8ed2bf4",
+    "name": "Товары в наличии",
+    "commands": [{
+      "id": "fa72dc5e-8c24-445f-8e72-d1e66e61c461",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.birota.ru/shop/aksessuary/tormoznaja_sistema/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2bd73de6-9370-4568-b2de-148f9659289c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x841",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c3c2c633-7d85-4a81-b390-5d0a60192a10",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Весь каталог",
+      "targets": [
+        ["linkText=Весь каталог", "linkText"],
+        ["css=#available-al > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Весь каталог')]", "xpath:link"],
+        ["xpath=//div[@id='available-al']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/shop/aksessuary/tormoznaja_sistema/?arrFilter%5BOFFERS%5D%5B>%3DCATALOG_QUANTITY%5D=0')]", "xpath:href"],
+        ["xpath=//div[3]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Весь каталог')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "68009733-165c-4667-ae0e-79f733f6f9e1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=В наличии",
+      "targets": [
+        ["linkText=В наличии", "linkText"],
+        ["css=#available-al > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'В наличии')]", "xpath:link"],
+        ["xpath=//div[@id='available-al']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/shop/aksessuary/tormoznaja_sistema/')])[26]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'В наличии')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5ffc4c88-5916-4016-bcd7-a5e81426e9a9",
+    "name": "Кнопка сбросить",
+    "commands": [{
+      "id": "c21f9b5c-998c-44bc-9ad5-60e7d18f5229",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.birota.ru/shop/aksessuary/tormoznaja_sistema/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "448e5262-5a09-4470-90b1-c056acd9b71c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x841",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ce0a506f-14a5-46ce-9655-e84d342da7d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(3) > label",
+      "targets": [
+        ["css=li:nth-child(3) > label", "css:finder"],
+        ["xpath=//section[@id='main']/div[2]/aside/div[2]/form/fieldset/div[2]/div/div/div/ul/li[3]/label", "xpath:idRelative"],
+        ["xpath=//li[3]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Alligator')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7ed077c-a5cc-414d-9ff0-16fb9c5f3bae",
+      "comment": "",
+      "command": "click",
+      "target": "id=set_filter",
+      "targets": [
+        ["id=set_filter", "id"],
+        ["name=set_filter", "name"],
+        ["css=#set_filter", "css:finder"],
+        ["xpath=//input[@id='set_filter']", "xpath:attributes"],
+        ["xpath=//section[@id='main']/div[2]/aside/div[2]/form/fieldset/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32318f2c-fe33-498a-ba77-993102738ec5",
+      "comment": "",
+      "command": "click",
+      "target": "id=del_filter",
+      "targets": [
+        ["id=del_filter", "id"],
+        ["name=del_filter", "name"],
+        ["css=#del_filter", "css:finder"],
+        ["xpath=//input[@id='del_filter']", "xpath:attributes"],
+        ["xpath=//section[@id='main']/div[2]/aside/div[2]/form/fieldset/div[5]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f1b6b7a7-9f81-4654-a666-7aeb1bb674c6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.birota.ru/", "https://www.birota.ru/shop/aksessuary/transmission/", "https://www.birota.ru/shop/aksessuary/tormoznaja_sistema/"],
+  "plugins": []
+}
