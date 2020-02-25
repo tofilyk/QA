@@ -11,4 +11,4 @@
 ***
 ![tesat](https://github.com/tofilyk/QA/blob/master/2020-02-25_13-54-54.png)
  ***
-![tesat](https://github.com/tofilyk/QA/blob/master/2020-02-25_14-18-55.png)
+![tesat](https://github.com/tofilyk/QA/blob/master/2020-02-25_14-29-48.png)
