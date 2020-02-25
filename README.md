@@ -5,6 +5,6 @@
 ***
 ![tesat](https://github.com/tofilyk/QA/blob/master/2020-02-24_17-13-51.png)
 ***
-![tesat](https://github.com/tofilyk/QA/blob/master/2020-02-25_12-46-50.png)
+![tesat](https://github.com/tofilyk/QA/blob/master/2020-02-25_12-52-16.png)
 
  
